@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday 💙</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xkc2xvw0ej");
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MDHKMESXGY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MDHKMESXGY');
+</script>
+
+</head>
+
+<body>
+
+    <!-- ================= START SCREEN ================= -->
+
+<div id="startScreen">
+
+    <div class="start-box">
+
+        <h1>surprise</h1>
+
+        <p>Click below to begin your surprise</p>
+
+        <button id="startBtn">Start Surprise ❤️</button>
+
+    </div>
+
+</div>
+
+<div id="app">
+
+    <!-- Phase 1 -->
+    <section id="intro"></section>
+
+    <!-- Phase 2 -->
+    <section id="quiz"></section>
+
+    <!-- Phase 3 -->
+
+    <section id="aiTerminal">
+
+    <div class="terminal-container">
+
+        <div class="terminal-header">
+
+            <div class="terminal-dots">
+
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+
+            </div>
+
+            <div class="terminal-title">
+
+                sunshine AI v3
+
+            </div>
+
+        </div>
+
+        <div id="terminalOutput"></div>
+
+<div class="terminal-progress">
+
+    <div id="terminalBar"></div>
+
+</div>
+
+<div id="terminalPercent">
+
+    0%
+
+</div>
+
+</section>
+
+<section id="blackScreen">
+
+    <div id="blackMessage"></div>
+
+</section>
+
+<section id="moonScene">
+
+    <div class="sky"></div>
+
+    <div class="stars"></div>
+
+    <div class="moon-glow"></div>
+
+    <div class="moon"></div>
+
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    <div class="cloud cloud3"></div>
+
+    <div id="moonText"></div>
+
+    <div id="moonFlash"></div>
+
+</section>
+
+<section id="birthdayReveal">
+
+    <div class="birthday-bg"></div>
+
+    <div class="light-rays"></div>
+
+<div class="particles"></div>
+
+    <div class="birthday-content">
+
+        <h2 id="happyText">HAPPY</h2>
+
+        <h1 id="birthdayText">BIRTHDAY</h1>
+
+        <h3 id="nameText">
+
+to
+
+<br>
+
+<span id="specialName">
+
+Butki😁
+
+</span>
+
+</h3>
+
+    </div>
+
+</section>
+
+    <section id="krishna">
+
+    <div class="krishna-bg"></div>
+
+    <div class="gold-particles"></div>
+
+    <div id="petals"></div>
+
+    <div class="krishnaAura"></div>
+
+    <div class="lightCircle"></div>
+    
+    <img
+        src="assets/images/krishna.png"
+        id="krishnaImage"
+        alt="Lord Krishna"
+    >
+
+    <div class="blessing-box">
+
+        <h2>🪔 Divine Blessing</h2>
+
+        <p id="blessingText"></p>
+
+    </div>
+
+    <button id="continueBtn">
+
+        Continue →
+
+    </button>
+
+</section>
+
+    <!-- Phase 8 -->
+    <section id="cards"></section>
+
+    <!-- Phase 10 -->
+   <section id="gallery">
+
+    <div class="gallery-bg"></div>
+
+    <div class="memory-card">
+
+        <div class="glassShine"></div>
+
+        <div class="progress" id="galleryProgress">
+
+            1 / 7
+
+        </div>
+
+        <div class="progressBar">
+
+<div id="progressFill"></div>
+
+</div>
+
+        <img
+            id="memoryImage"
+            src=""
+            alt="Memory"
+        >
+
+        <div class="memoryMessage" id="memoryMessage">
+
+        </div>
+
+        <button id="nextMemory">
+
+            Next →
+
+        </button>
+
+    </div>
+
+    <div id="floatingHearts"></div>
+
+</section>
+
+<section id="letter">
+
+    <div class="letterBackground"></div>
+
+    <div class="envelope" id="envelope">
+
+        <div class="envelopeFront"></div>
+
+        <div class="envelopeFlap"></div>
+
+        <div class="letterPaper" id="letterPaper">
+
+            <h2 id="letterHeading">
+
+To Sunshine ❤️
+
+</h2>
+
+            <p id="letterText"></p>
+
+            
+    <div id="letterSignature">
+
+— Radhe Radhe 💗
+
+</div>
+
+
+        </div>
+
+    <button id="letterContinue">
+
+        Continue →
+
+    </button>
+
+</section>
+<section id="cake" class="page">
+
+    <div class="cake-container">
+
+        <h2 class="cake-title">
+            Make A Wish 🎂
+        </h2>
+
+        <p class="cake-text">
+            Tap the cake to cut it 💖
+        </p>
+
+        <div class="cake" id="birthdayCake">
+
+    <div class="cake-left">
+
+        <!-- Candles -->
+
+        <div class="candles">
+
+            <div class="candle"><div class="flame"></div></div>
+            <div class="candle"><div class="flame"></div></div>
+            <div class="candle"><div class="flame"></div></div>
+
+        </div>
+
+        <div class="cake-top"></div>
+
+        <div class="cream"></div>
+
+        <div class="layer layer1"></div>
+
+        <div class="layer layer2"></div>
+
+        <div class="layer layer3"></div>
+
+        <div class="drip d1"></div>
+        <div class="drip d2"></div>
+        <div class="drip d3"></div>
+
+        <div class="cherry c1"></div>
+        <div class="cherry c2"></div>
+        <div class="cherry c3"></div>
+
+    </div>
+
+    <div class="cake-right">
+
+        <!-- same cake copy -->
+
+        <div class="candles">
+
+            <div class="candle"><div class="flame"></div></div>
+            <div class="candle"><div class="flame"></div></div>
+            <div class="candle"><div class="flame"></div></div>
+
+        </div>
+
+        <div class="cake-top"></div>
+
+        <div class="cream"></div>
+
+        <div class="layer layer1"></div>
+
+        <div class="layer layer2"></div>
+
+        <div class="layer layer3"></div>
+
+        <div class="drip d1"></div>
+        <div class="drip d2"></div>
+        <div class="drip d3"></div>
+
+        <div class="cherry c1"></div>
+        <div class="cherry c2"></div>
+        <div class="cherry c3"></div>
+
+    </div>
+
+</div>
+
+        <button id="cutCakeBtn" class="primary-btn">
+
+            Cut Cake 🍰
+
+        </button>
+
+    </div>
+
+</section>
+
+<section id="final" class="section">
+
+    <div class="final-bg"></div>
+
+    <div class="goldParticles" id="goldParticles"></div>
+
+    <div class="final-content">
+
+        <div class="final-glow"></div>
+
+        <h3 class="final-small">
+            One Last Thing...
+        </h3>
+
+        <h1 class="final-title">
+            aek last gift baki s  
+        </h1>
+
+        <h2 class="final-name">
+
+            <span id="finalName">
+                niche scroll kar
+            </span>
+
+        </h2>
+
+        <p id="finalMessage" class="final-message"></p>
+
+        <div class="final-photo">
+
+            <img
+                src="assets/images/final-photo.png"
+                id="finalPhoto"
+            >
+
+        </div>
+
+        <button
+            id="showGiftBtn"
+            class="premiumBtn">
+
+            🎁 One Last Surprise
+
+        </button>
+
+    </div>
+
+</section>
+<!-- ==========================================
+     GIFT SECTION
+========================================== -->
+
+<section id="gift" class="section">
+
+    <div class="gift-container">
+
+        <h2 class="gift-title">
+            🎁 One Last Surprise...
+        </h2>
+
+        <p class="gift-subtitle">
+            I have something special for you ❤️
+        </p>
+
+        <div class="gift-box" id="giftBox">
+
+            <div class="gift-lid"></div>
+
+            <div class="gift-body"></div>
+
+            <div class="gift-ribbon-v"></div>
+
+            <div class="gift-ribbon-h"></div>
+
+        </div>
+
+        <button id="openGiftBtn" class="btn">
+            Open My Gift ❤️
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ==========================================================
+     372 REASONS BOOK
+========================================================== -->
+
+<section id="reasons" class="section">
+
+    <div class="book-container">
+
+        <div class="book-cover">
+
+            <h1>❤️</h1>
+
+            <h2>372 Days</h2>
+
+            <h3>372 reasons</h3>
+
+            <p>to fall in love</p>
+
+        </div>
+
+        <div class="reason-card">
+
+            <div class="reason-number">
+                Reason #<span id="reasonNumber">1</span>
+            </div>
+
+            <div id="reasonText" class="reason-text">
+
+                Your first reason goes here ❤️
+
+            </div>
+
+            <div class="reason-progress">
+
+                <button id="prevReasonBtn">⬅ Previous</button>
+
+                <span id="reasonProgress">
+
+                    1 / 372
+
+                </span>
+
+                <button id="nextReasonBtn">Next ➡</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="ending" class="section">
+
+    <div class="ending-bg"></div>
+
+    <div class="ending-content">
+
+        <h2 class="ending-small">
+            Once Again...
+        </h2>
+
+        <h1 class="ending-title">
+            🎉 Happy Birthday 🎉
+        </h1>
+
+        <h3 class="ending-name">
+
+            YOUR NAME ❤️
+
+        </h3>
+
+        <p class="ending-message">
+
+            Thank you for taking this journey.
+            I hope this little surprise made you smile.
+
+            ❤️
+
+        </p>
+
+        <button id="restartJourney" class="btn">
+
+            🔄 Experience Again
+
+        </button>
+
+        <p class="ending-credit">
+Made with ❤️ especially for you.
+</p>
+
+    </div>
+
+</section>
+
+</div>
+
+<audio id="backgroundMusic" loop></audio>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+<script src="js/script.js"></script>
+
+<audio id="krishnaMusic" preload="auto">
+    <source src="assets/audio/krishna.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="birthdayMusic" preload="auto">
+    <source src="assets/audio/birthday.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="galleryMusic" preload="auto">
+    <source src="assets/audio/gallery.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="letterMusic" preload="auto">
+    <source src="assets/audio/letter.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="typingSound" preload="auto">
+    <source src="assets/audio/typing.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="paperSound" preload="auto">
+    <source src="assets/audio/paper.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="cutSound" preload="auto">
+    <source src="assets/audio/cut.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="cheerSound" preload="auto">
+    <source src="assets/audio/cheer.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="giftMusic" preload="auto">
+    <source src="assets/audio/gift.mp3" type="audio/mpeg">
+</audio>
+
+<canvas id="fireworks"></canvas>
+
+</body>
+</html>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animation.css">
+<link rel="stylesheet" href="css/responsive.css">

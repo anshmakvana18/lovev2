@@ -1,0 +1,1273 @@
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+
+/* ===========================
+   TABLET
+=========================== */
+
+@media (max-width:992px){
+
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media (max-width:768px){
+
+html,
+body{
+
+overflow-x:hidden;
+
+}
+
+*{
+
+box-sizing:border-box;
+
+}
+
+.section{
+
+width:100%;
+
+min-height:100vh;
+
+padding:20px;
+
+overflow:hidden;
+
+}
+
+img{
+
+max-width:100%;
+
+height:auto;
+
+display:block;
+
+}
+
+button{
+
+max-width:100%;
+
+}
+
+}
+
+/* ===========================
+   SMALL MOBILE
+=========================== */
+
+@media (max-width:480px){
+
+}
+
+/* ===========================
+   EXTRA SMALL
+=========================== */
+
+@media (max-width:360px){
+
+}
+
+/* ==========================================================
+   START SCREEN
+========================================================== */
+
+@media (max-width:768px){
+
+#startScreen{
+
+padding:20px;
+
+}
+
+.start-box{
+
+width:100%;
+max-width:380px;
+
+padding:35px 25px;
+
+border-radius:25px;
+
+}
+
+.start-box h1{
+
+font-size:42px !important;
+
+line-height:1.1;
+
+}
+
+.start-box p{
+
+font-size:16px;
+
+line-height:1.7;
+
+margin:20px 0;
+
+}
+
+#startBtn{
+
+width:100%;
+
+padding:18px;
+
+font-size:18px;
+
+border-radius:50px;
+
+}
+
+/* ==========================================
+   GLOBAL
+========================================== */
+
+html,
+body{
+
+overflow-x:hidden;
+
+}
+
+*{
+
+box-sizing:border-box;
+
+}
+
+img{
+
+max-width:100%;
+
+height:auto;
+
+display:block;
+
+}
+
+.section{
+
+width:100%;
+
+min-height:100vh;
+
+padding:20px;
+
+overflow:hidden;
+
+}
+
+button{
+
+max-width:100%;
+
+}
+
+}
+
+@media (max-width:480px){
+
+.start-box{
+
+padding:28px 18px;
+
+}
+
+.start-box h1{
+
+font-size:34px !important;
+
+}
+
+.start-box p{
+
+font-size:15px;
+
+}
+
+#startBtn{
+
+font-size:17px;
+
+padding:16px;
+
+}
+
+}
+
+@media (max-width:360px){
+
+.start-box{
+
+padding:22px 15px;
+
+}
+
+.start-box h1{
+
+font-size:30px !important;
+
+}
+
+.start-box p{
+
+font-size:14px;
+
+}
+
+#startBtn{
+
+font-size:16px;
+
+padding:15px;
+
+}
+
+}
+
+/* ==========================================================
+   INTRO
+========================================================== */
+
+@media (max-width:768px){
+
+#intro{
+
+padding:20px;
+
+text-align:center;
+
+}
+
+#intro h1{
+
+font-size:42px !important;
+
+line-height:1.15;
+
+}
+
+#intro h2{
+
+font-size:28px !important;
+
+}
+
+#intro p{
+
+font-size:16px;
+
+line-height:1.8;
+
+max-width:100%;
+
+}
+
+}
+
+/* ==========================================================
+   QUIZ
+========================================================== */
+
+@media (max-width:768px){
+
+.quiz-container{
+
+width:100%;
+
+max-width:100%;
+
+padding:25px;
+
+border-radius:25px;
+
+}
+
+.quiz-question{
+
+font-size:24px !important;
+
+line-height:1.5;
+
+}
+
+.quiz-options{
+
+display:flex;
+
+flex-direction:column;
+
+gap:18px;
+
+}
+
+.quiz-options button{
+
+width:100%;
+
+padding:18px;
+
+font-size:17px;
+
+}
+
+}
+
+/* ==========================================================
+   AI TERMINAL
+========================================================== */
+
+@media (max-width:768px){
+
+.terminal-container{
+
+width:100%;
+
+height:75vh;
+
+border-radius:18px;
+
+}
+
+.terminal-header{
+
+padding:12px 18px;
+
+}
+
+.terminal-title{
+
+font-size:15px;
+
+}
+
+#terminalOutput{
+
+font-size:14px;
+
+padding:18px;
+
+line-height:1.7;
+
+}
+
+#terminalPercent{
+
+font-size:14px;
+
+}
+
+}
+
+@media (max-width:480px){
+
+.quiz-question{
+
+font-size:20px !important;
+
+}
+
+.quiz-options button{
+
+font-size:16px;
+
+padding:16px;
+
+}
+
+.terminal-container{
+
+height:70vh;
+
+}
+
+#terminalOutput{
+
+font-size:13px;
+
+}
+
+}
+
+@media (max-width:360px){
+
+.quiz-question{
+
+font-size:18px !important;
+
+}
+
+.quiz-options button{
+
+padding:15px;
+
+font-size:15px;
+
+}
+
+#terminalOutput{
+
+font-size:12px;
+
+}
+
+}
+
+/* ==========================================================
+   MOON SCENE
+========================================================== */
+
+@media (max-width:768px){
+
+#moonScene{
+
+padding:20px;
+
+overflow:hidden;
+
+}
+
+.moon{
+
+width:180px;
+height:180px;
+
+}
+
+.moon-glow{
+
+width:260px;
+height:260px;
+
+}
+
+#moonText{
+
+width:90%;
+
+font-size:22px;
+
+line-height:1.8;
+
+padding:20px;
+
+text-align:center;
+
+}
+
+.cloud{
+
+transform:scale(.75);
+
+}
+
+}
+
+/* ==========================================================
+   BIRTHDAY REVEAL
+========================================================== */
+
+@media (max-width:768px){
+
+#birthdayReveal{
+
+padding:20px;
+
+text-align:center;
+
+}
+
+.birthday-content{
+
+width:100%;
+
+padding:20px;
+
+}
+
+#happyText{
+
+font-size:42px !important;
+
+line-height:1.1;
+
+}
+
+#birthdayText{
+
+font-size:58px !important;
+
+line-height:1;
+
+}
+
+#nameText{
+
+font-size:26px !important;
+
+margin-top:20px;
+
+line-height:1.5;
+
+}
+
+#specialName{
+
+font-size:32px !important;
+
+display:block;
+
+margin-top:10px;
+
+word-break:break-word;
+
+}
+
+}
+
+@media (max-width:480px){
+
+.moon{
+
+width:150px;
+
+height:150px;
+
+}
+
+.moon-glow{
+
+width:220px;
+
+height:220px;
+
+}
+
+#moonText{
+
+font-size:18px;
+
+}
+
+#happyText{
+
+font-size:34px !important;
+
+}
+
+#birthdayText{
+
+font-size:46px !important;
+
+}
+
+#nameText{
+
+font-size:22px !important;
+
+}
+
+#specialName{
+
+font-size:26px !important;
+
+}
+
+}
+
+@media (max-width:360px){
+
+#moonText{
+
+font-size:16px;
+
+}
+
+#happyText{
+
+font-size:30px !important;
+
+}
+
+#birthdayText{
+
+font-size:40px !important;
+
+}
+
+#nameText{
+
+font-size:20px !important;
+
+}
+
+#specialName{
+
+font-size:22px !important;
+
+}
+
+}
+
+/* ==========================================================
+   KRISHNA SECTION V2
+========================================================== */
+
+@media (max-width:768px){
+
+#krishna{
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+padding:35px 20px;
+
+min-height:100vh;
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+/* Aura */
+
+.krishna-bg{
+
+position:absolute;
+
+inset:0;
+
+background:
+
+radial-gradient(circle,
+
+rgba(255,215,0,.12),
+
+transparent 70%);
+
+z-index:1;
+
+}
+
+/* Petals */
+
+#petals{
+
+position:absolute;
+
+inset:0;
+
+pointer-events:none;
+
+z-index:2;
+
+}
+
+/* Krishna */
+
+#krishnaImage{
+
+position:relative;
+
+left:auto;
+
+top:auto;
+
+transform:none;
+
+display:block;
+
+width:min(70vw,240px);
+
+height:auto;
+
+margin:0 auto 25px;
+
+filter:drop-shadow(0 0 25px rgba(255,215,0,.45));
+
+z-index:10;
+
+animation:none;
+
+}
+
+/* Blessing Card */
+
+.blessing-box{
+
+position:relative;
+
+bottom:auto;
+
+left:auto;
+
+width:100%;
+
+max-width:360px;
+
+margin:0 auto;
+
+padding:22px;
+
+border-radius:22px;
+
+background:rgba(255,255,255,.05);
+
+backdrop-filter:blur(15px);
+
+-webkit-backdrop-filter:blur(15px);
+
+border:1px solid rgba(255,255,255,.08);
+
+box-shadow:
+
+0 15px 40px rgba(0,0,0,.35);
+
+text-align:center;
+
+z-index:10;
+
+}
+
+/* Heading */
+
+.blessing-box h2{
+
+font-size:28px;
+
+margin-bottom:18px;
+
+color:#FFD700;
+
+}
+
+/* Text */
+
+#blessingText{
+
+font-size:17px;
+
+line-height:1.9;
+
+letter-spacing:.3px;
+
+color:white;
+
+white-space:pre-line;
+
+word-break:normal;
+
+overflow-wrap:break-word;
+
+}
+
+/* Continue */
+
+#continueBtn{
+
+position:relative;
+
+left:auto;
+
+bottom:auto;
+
+transform:none;
+
+margin-top:25px;
+
+padding:15px 40px;
+
+font-size:17px;
+
+border-radius:999px;
+
+}
+
+}
+
+/* ==========================================================
+   CARDS
+========================================================== */
+
+@media (max-width:768px){
+
+#cards{
+
+padding:20px;
+
+}
+
+.cards-container{
+
+display:flex;
+
+flex-direction:column;
+
+gap:20px;
+
+align-items:center;
+
+}
+
+.card{
+
+width:100%;
+
+max-width:360px;
+
+}
+
+.card h2{
+
+font-size:24px !important;
+
+}
+
+.card p{
+
+font-size:15px;
+
+line-height:1.8;
+
+}
+
+}
+
+/* ==========================================================
+   GALLERY MOBILE
+========================================================== */
+
+@media (max-width:768px){
+
+#gallery{
+
+    padding:20px;
+    overflow-y:auto;
+
+}
+
+.memory-card{
+
+    position:relative;
+
+    left:auto;
+    top:auto;
+
+    transform:none;
+
+    width:100%;
+
+    max-width:380px;
+
+    margin:30px auto;
+
+    padding:18px;
+
+}
+
+#memoryImage{
+
+    width:100%;
+
+    max-height:42vh;
+
+    object-fit:contain;
+
+}
+
+.memoryMessage{
+
+    font-size:17px;
+
+    line-height:1.6;
+
+    padding:0;
+
+    margin-top:18px;
+
+    min-height:auto;
+
+}
+
+#nextMemory{
+
+    width:100%;
+
+    margin-top:20px;
+
+    padding:15px;
+
+    font-size:17px;
+
+}
+
+.progress{
+
+    font-size:16px;
+
+}
+
+}
+
+/* ==========================================================
+   LETTER
+========================================================== */
+
+@media (max-width:768px){
+
+.envelope{
+
+width:100%;
+
+max-width:380px;
+
+height:520px;
+
+margin:auto;
+
+}
+
+.letterPaper{
+
+padding:25px;
+
+}
+
+#letterHeading{
+
+font-size:28px !important;
+
+}
+
+#letterText{
+
+font-size:16px;
+
+line-height:1.9;
+
+}
+
+#letterSignature{
+
+font-size:18px;
+
+margin-top:25px;
+
+}
+
+#letterContinue{
+
+width:100%;
+
+margin-top:20px;
+
+}
+
+}
+
+/* ==========================================================
+   CAKE
+========================================================== */
+
+@media (max-width:768px){
+
+.cake-container{
+
+padding:20px;
+
+text-align:center;
+
+}
+
+.cake{
+
+transform:scale(.75);
+
+margin:20px auto;
+
+}
+
+.cake-title{
+
+font-size:34px !important;
+
+}
+
+.cake-text{
+
+font-size:16px;
+
+}
+
+#cutCakeBtn{
+
+width:100%;
+
+max-width:320px;
+
+}
+
+}
+/* ==========================================================
+   GIFT
+========================================================== */
+
+@media (max-width:768px){
+
+.gift-container{
+
+padding:20px;
+
+text-align:center;
+
+}
+
+.gift-title{
+
+font-size:34px !important;
+
+}
+
+.gift-subtitle{
+
+font-size:16px;
+
+line-height:1.8;
+
+}
+
+.gift-box{
+
+transform:scale(.85);
+
+margin:25px auto;
+
+}
+
+#openGiftBtn{
+
+width:100%;
+
+max-width:320px;
+
+}
+
+}
+
+/* ==========================================================
+   REASONS
+========================================================== */
+
+@media (max-width:768px){
+
+.book-container{
+
+width:100%;
+
+padding:20px;
+
+}
+
+.book-cover{
+
+padding:35px 20px;
+
+}
+
+.book-cover h2{
+
+font-size:34px !important;
+
+}
+
+.book-cover h3{
+
+font-size:22px !important;
+
+}
+
+.reason-card{
+
+padding:25px;
+
+}
+
+.reason-number{
+
+font-size:18px;
+
+}
+
+.reason-text{
+
+font-size:18px;
+
+line-height:1.8;
+
+min-height:170px;
+
+}
+
+.reason-progress{
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+align-items:center;
+
+}
+
+.reason-progress button{
+
+width:100%;
+
+max-width:300px;
+
+}
+
+}
+
+/* ==========================================================
+   ENDING
+========================================================== */
+
+@media (max-width:768px){
+
+.ending-content{
+
+width:100%;
+
+padding:20px;
+
+text-align:center;
+
+}
+
+.ending-small{
+
+font-size:22px !important;
+
+}
+
+.ending-title{
+
+font-size:42px !important;
+
+line-height:1.2;
+
+}
+
+.ending-name{
+
+font-size:28px !important;
+
+}
+
+.ending-message{
+
+font-size:16px;
+
+line-height:1.8;
+
+}
+
+#restartJourney{
+
+width:100%;
+
+max-width:320px;
+
+margin-top:30px;
+
+}
+
+.ending-credit{
+
+font-size:13px;
+
+margin-top:25px;
+
+}
+
+}
+
+@media (max-width:480px){
+
+.cake{
+
+transform:scale(.62);
+
+}
+
+.gift-box{
+
+transform:scale(.72);
+
+}
+
+.reason-text{
+
+font-size:16px;
+
+}
+
+.ending-title{
+
+font-size:34px !important;
+
+}
+
+}
+
+@media (max-width:360px){
+
+.cake{
+
+transform:scale(.55);
+
+}
+
+.book-cover h2{
+
+font-size:28px !important;
+
+}
+
+.reason-text{
+
+font-size:15px;
+
+}
+
+.ending-title{
+
+font-size:30px !important;
+
+}
+
+.ending-name{
+
+font-size:22px !important;
+
+}
+
+}
