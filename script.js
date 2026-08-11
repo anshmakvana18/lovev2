@@ -1532,50 +1532,50 @@ heart.remove();
 
 }
 
-const letterMessage=`heyyy,
-i hope taro divas saro jato hashe ane aa
-letter aavta aavta tara face uper smile 
-continue rai hashe.
+const letterMessage=`
+Wishing you a very happy birthday my dear love.....💖😘🥳🥳🥳🥳
+Hal 12 vage birthday wish karu chu kem ke aaj bau khusi no divas che😁 pn mu 
+overthinking karin emotional thau chu🥺jyare apado love start thayo tyare me bau
+khus hato ke juni badhi vat bhulin navi life chalu karis em kem ke mar jevi joiti evij
+mali che mn. Apade banne vachhe true love che❣️ apade kyare aek bijan 6hodva ke
+timepass karva love nato karyo hato.
 
-tane khbr hashe k aapre kadi face 2 face
- vaat nhi kari toh pan khbr nai kem mari 
- ander feeling divase n divase strong thati
-jay chhe.pan man aek vaat realize thai love 
-khali feelings,care,loyalty,attraction aa badha
-par depend kar j s pan mara hisaab thi main 
-factor destiny s j mara khilaaf s,
-pela divas ae jyare te mane unblock
-karyo tyare mu khush thai gyo toh pan taro
-massage joi n maru mood kharab thai gyu yrr tu 
-jyare bhaiya k chhe n bau j hurt chhe haa man
-khbr s k aa duniya ma badha tara bhai s except 1 
-have aa situation ma mari jode 3 possiblities chhe
+Mn khabar che ke apade sathe vadhar time spend nhi karyo. Apadu releshionship
+long distance maj gayu che😳.tn khabar to hasej ke long distance kaik kharab phase che.
+Overthinking thay jem hal thayj che apada banne vachhe. Apada ne bau time thayo
+malya bhi nhi😳 bs message ane call kyare kyarek🥺 pn jyare me public ma 
+kyak couple jovu tyare mn tar yadd aave ke kash tu mar jode joyk😭😭😭. Mtlb mar
+fellings tar sathe jodai gai che. Aa badhu join me kyarek to roi bhi jau😣😣 meto
+vicharyu hatu ke apade hamesha sathe resu ane badha sapna pura karsu😊😊pn 
+khabar nai have apada banne vache hu thay che ke b up ni vat vachee aave che evu 
+kem yarr... ano ans to mar jode nhi kadach long distance nade che...... kai problem 
+hase to malin solved karsu. Badhi vat nu solution break up j na hoy.....
 
-1 taro bhai bani jau (aa mu kadi except nhi karvano aetle aa koi possiblity nhi)❌❌
-2 except 1 mo 1 bani jau (hardest pan best possiblity)✅✅
-3 bija grah ni citizenship lai lau(2nd karta vadhare easy s 😅)
+Kyarek time malse tyare apade malsu ane badhu solution lavsu..  trust che mn 
+ke badhu solve thai jase...😓tn mar par kai vat no gusso hoy to kai sake che tu.. marje bs
+mn jyare malsu tyare....mu tar ane mar banne nu dil dukhava nhi mangto.. kadach tn 
+hal break up keva ma essay lagtu hase pn aatlu essay nhi😣🥺😳 
+tu rai lais mar vagr b up karin bhuli jais tartj.. me to aavo vicharto bhi nhi..
 
-mu google par search karyu k mars ni citizenship leva 
-shu karvu pade pan atyare service unavailable batav s 
+Mn lage tya sudhi to tu bhi mar thi dur nhi thava mangti sayad kai biju reasons bhi
+hoi sake je ru mn kai na sakti hoy. Trust rakh thai jase solve bahdu..jagda kar lesu 
+apade kaik bs😉😉 pn sathej resu.. har man lau chu kyarek to tar vise vicharin pn
+strong rau chu to bhi roi jau chu kyarek to😭😭
 
-yrr sachu kau n toh mari jindgi mo koi pan khushi k dukh
-hoy pelu tane kevanu thay chhe,koi pan movie/webseries/anime
-jo to hoy tara thi relate thai jay chhe,reels jo to hoy tyare 
-har biji reel tane moklvanu thay chhe pan na mokli shaku chhu 
-na koi kai shaku chhu(reels mate to me aek special save section 
-banayu chhe (for you)naam thi)
+Mu always tar sathej chu.. love karyo che to nibhavis me dur to na thava dau tn.. 
+tn kadach aa badhu nibandh jevu lagtu hase😅 pn me koi vat bija jode shere nhi karti 
+sakto tar sivay..tn kain mn haru feel thay😊 mn nhi khabar ke have tu agal su vicharis 
+mar sathe rais ke nai pn me always tar sathej reva mangu chu.. tn khabar mane chen
+tari ek line bau yadd aave je tu mn har time keti hati chal  Guess kar 🤔🤔 mn khabar che
+nai yadd aave tn mej kau "ak maren" aavuj kaik hatun kadach to 😅 tuto bhuli 
+bhi gai hase kadach to mn to yadd che tar badhi vato..
 
-mari tara thi aek j request chhe plz kadi mane bhai,bhaiya,etc
-naa keti plz yrr bau j hurt thay chhe aa vanchil/hambarin
+aa badhu vanchin face pr smile ☺ lavje mn saru lagse🤗 tar mate special day che to
+khuss reje😊😊
 
-man lage chhe taru bau mathu khai lidhu😅pan mu mane
-control na kari shakyo agar me koi pan reete taro ajj no divas
-kharab karyo hoy toh sorry h biji aek vaat haju aagar aek surprise
-baki chhe aetle continue karje
-
-i hope taro ajj no divas saro jay 
-once again happy birthday 🎉`;
-
+Once again wish you a very happy birthday my dear wife 🥰😘💞
+🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳
+'
 function showLetter(){
 
     playMusic("letterMusic");
